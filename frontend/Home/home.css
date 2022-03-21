@@ -1,0 +1,55 @@
+
+#canvas{
+    position:relative !important;
+    top:0;
+    left:0;
+    width: 99vw;
+}
+.abs{
+    position:absolute ;
+    top:350px;
+    left:620px;
+    color:white;
+    z-index: 1;
+    color: aqua;
+
+}
+.python{
+    color: greenyellow;
+}
+@media screen and (max-width: 600px) {
+    .abs{
+        top: 380px;
+        left:210px;
+        size: 40px;
+    }
+    #canvas{
+        width: 600;
+    }
+    
+  }
+  @media screen and (max-width: 480px) {
+ 
+    #canvas{
+        
+        height:75vh;
+    }
+    .abs{
+        top: 40vh;
+        left:29vw;
+        size: 40px;
+    }
+  }
+
+  /* @media screen and (max-width: 360px) {
+    #canvas{
+        
+        height:300 !important;
+    }
+
+    .abs{
+        top: 380px;
+        left:85px;
+        size: 40px;
+    }
+  }   */
